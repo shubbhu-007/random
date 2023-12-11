@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Basic Html Document">
+    <meta property="og:description" content="This document is about basics of html and different html elements which are present in html.How to use them ? What are their behaviour?">
+    <meta property="og:image" content="https://ahrefs.com/blog/wp-content/uploads/2019/12/fb-how-to-become-an-seo-expert.png">
+    <title>Basic HTML Document</title>
+    <!-- * adding favicon -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    />
+
+    <!--* ADDING STYLESHEET -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--* Heading -->
+    <h1>HII</h1>
+    <h2>HII</h2>
+    <h3>Hii</h3>
+    <h4>Hii</h4>
+    <h5>Hii</h5>
+    <h6>Hii</h6>
+
+    <h7>Hii</h7>
+    <!--! H7 will not work because it is not a standard heading element defined in HTML  -->
+
+    <!--* Paragraph -->
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus alias
+      voluptates vitae accusamus voluptatibus ad cupiditate quidem, dolores,
+      asperiores adipisci laudantium. Qui aspernatur dolores alias voluptatibus
+      asperiores maxime sunt porro necessitatibus, modi, quo, minima iste
+      reprehenderit eos soluta praesentium voluptas?
+    </p>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum fuga
+      voluptate sit maxime doloribus magni, aut recusandae. Repellat quasi
+      quidem voluptas quas, debitis corporis ipsam recusandae voluptatem iusto
+      dignissimos cumque cupiditate nesciunt sequi ab sint officia quae natus
+      eligendi accusantium enim laborum? Inventore nemo, commodi qui perferendis
+      placeat architecto rem.
+    </p>
+    <!--! p tag has by default some margin present  -->
+
+    <!-- * Hyperlinks -->
+    <a target="_blank" href="https://www.google.com">Go to Google</a>
+    <a target="_self" href="https://www.amazon.com">Go to amazon</a>
+    <a target="_parent" href="https://www.flipkart.com">Go to flipkart</a>
+    <!-- ! target is to specify wheere linked document should open -->
+    <a href="./ass.pdf" download target="_blank">Download This Pdf</a>
+
+    <br />
+    <!-- line break tag-->
+    <hr />
+    <!-- horizontal line tag-->
+
+    <!--* HTML Formatting tags -->
+    <i>This is italic text</i>
+    <b>This is bold text</b>
+    <small>This is small text</small>
+    <big>This is big text</big>
+    <p>a<sup>2</sup>+b<sup>2</sup></p>
+    <p></p>
+    <p>H<sub>2</sub>SO<sub>4</sub></p>
+    <del>This is deleted text</del>
+    <ins>This is inserted text</ins>
+    <strike>This is strike element</strike>
+
+    <!--* HTML Phrase Tags : indicate the structural meaning to the browser -->
+    <mark>This text is marked</mark>
+    <e>This is emphasised text</e>
+    <strong>It also shows bold text</strong>
+
+    <p dir="rtl">This is text which</p>
+    <!-- indicate browser about the direction in which text should flow -->
+
+    <!-- * Quotation and citation element  -->
+    <p>Here is quote from</p>
+    <blockquote cite="https:lorem.com">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed iure facilis
+      tempore facere quia temporibus laudantium mollitia obcaecati iste
+      expedita.
+    </blockquote>
+
+    <p>This is <q>quoted text</q></p>
+    <!--! <q> : insert quotationmark -->
+
+    <!-- The HTML <abbr> tag defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".
+Marking abbreviations can give useful information to browsers, translation systems and search-engines. -->
+    <p>The <abbr title="World Health Organization">WHO</abbr> formed in 1948</p>
+    <p>The HTML cite element defines the title of a work.</p>
+    <p>Browsers usually display cite elements in italic.</p>
+
+    <img src="img_the_scream.jpg" width="220" height="277" alt="The Scream" />
+    <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+    <bdo dir="rtl"> This is bi-directional override text </bdo>
+
+    <br />
+    <img
+      src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      alt="feather"
+      width="200"
+      height="100"
+    />
+    <img
+      src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      alt="feather"
+      width="50%"
+    />
+
+    <!-- * List -->
+    <ul>
+      <li>Home</li>
+      <li>Contact</li>
+      <li type="square">About</li>
+      <li>Services</li>
+      <li type="circle">Log In</li>
+    </ul>
+
+    <ol>
+      <li>Cake</li>
+      <li>Buiscuit</li>
+      <li>Cuisine</li>
+    </ol>
+    <ol type="a" start="4">
+      <li>Cake</li>
+      <li>Buiscuit</li>
+      <li>Cuisine</li>
+    </ol>
+    <p>Definition list : arrange the item as it is arranged in dictionary</p>
+    <dl>
+      <dt>Current:</dt>
+      <dd>I don't know</dd>
+    </dl>
+    <dl>
+      <dt>Resistance :</dt>
+      <dd>voltage / current</dd>
+    </dl>
+
+    <div>
+      <h1>This is intoduction</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita unde
+        fugiat, facere, nam recusandae atque eius dolor eaque quaerat hic
+        officia facilis sequi natus consectetur nisi, tempora a ratione aliquam!
+        Aliquid debitis eius maxime adipisci voluptatum ad reprehenderit, eum a
+        odit dicta officiis non hic laborum veritatis iste quisquam neque.
+      </p>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, voluptas?
+      </p>
+    </div>
+
+    <p>this is <span>span</span>text</p>
+    <span>hii <i>italic text inside span element</i></span>
+    <span
+      >span :
+      <h1>H1 text inside span</h1></span
+    >
+
+    <!--* Table -->
+    <table border="2px" style="border-collapse: collapse; padding: 1rem">
+      <colgroup>
+        <col span="1" style="background-color: red" />
+        <col span="1" style="background-color: yellow" />
+        <col span="1" style="background-color: green" />
+      </colgroup>
+      <tr style="padding: 1rem">
+        <th style="padding: 1rem">Column 1</th>
+        <th>Column 2</th>
+        <th>Column 3</th>
+      </tr>
+
+      <tr>
+        <td rowspan="2">Row 1 Cell 1</td>
+        <td>Row 1 Cell 2</td>
+        <td>Row 1 Cell 3</td>
+      </tr>
+      <tr>
+        <td>Row 2 Cell 2</td>
+        <td>Row 2 Cell 3</td>
+      </tr>
+      <tr>
+        <td colspan="3">Row 3 Cell 1</td>
+      </tr>
+    </table>
+
+    <table border="2px" style="border-collapse: collapse; padding: 1rem; margin-top:3rem;">
+        <caption>Table</caption>
+      <colgroup>
+        <col span="1" style="background-color: red" />
+        <col span="1" style="background-color: yellow" />
+        <col span="1" style="background-color: green" />
+      </colgroup>
+
+      <thead>
+        <th style="padding: 1rem">Column 1</th>
+        <th>Column 2</th>
+        <th>Column 3</th>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td rowspan="2">Row 1 Cell 1</td>
+          <td>Row 1 Cell 2</td>
+          <td>Row 1 Cell 3</td>
+        </tr>
+        <tr>
+          <td>Row 2 Cell 2</td>
+          <td>Row 2 Cell 3</td>
+        </tr>
+        <tr>
+          <td colspan="3">Row 3 Cell 1</td>
+        </tr>
+      </tbody>
+      <tfoot>
+
+      </tfoot>
+    </table>
+
+
+    <!--* SEmantic Elements -->
+    <header>
+      <h1>Introduction</h1>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Contact</li>
+          <li type="square">About</li>
+          <li>Services</li>
+          <li type="circle">Log In</li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est impedit
+      cumque esse magnam, dolore eos? Et velit atque odit accusamus minus
+      corporis ab, sint perferendis delectus quas doloribus. Blanditiis amet
+      necessitatibus quos! Sapiente possimus aut explicabo doloribus iure!
+      Praesentium, ullam.
+    </section>
+    <section>
+      <h1>WWF's Panda symbol</h1>
+      <p>
+        The Panda has become the symbol of WWF. The well-known panda logo of WWF
+        originated from a panda named Chi Chi that was transferred from the
+        Beijing Zoo to the London Zoo in the same year of the establishment of
+        WWF.
+      </p>
+    </section>
+    <article>
+      <h2>Google Chrome</h2>
+      <p>
+        Google Chrome is a web browser developed by Google, released in 2008.
+        Chrome is the world's most popular web browser today!
+      </p>
+    </article>
+    <aside>
+      <h4>Epcot Center</h4>
+      <p>
+        Epcot is a theme park at Walt Disney World Resort featuring exciting
+        attractions, international pavilions, award-winning fireworks and
+        seasonal special events.
+      </p>
+    </aside>
+    <section>
+      <article>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione ex
+        molestias, eos adipisci error reprehenderit quidem dolorem doloremque
+        nulla vero et, nihil quam amet enim exercitationem alias mollitia dolor
+        voluptas reiciendis tempore aperiam beatae corporis cum minus?
+        Consequuntur, quasi facere?
+      </article>
+      <article>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione ex
+        molestias, eos adipisci error reprehenderit quidem dolorem doloremque
+        nulla vero et, nihil quam amet enim exercitationem alias mollitia dolor
+        voluptas reiciendis tempore aperiam beatae corporis cum minus?
+        Consequuntur, quasi facere?
+      </article>
+    </section>
+    <article>
+      <section>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora
+        obcaecati nemo perspiciatis iure, aliquid ipsa dicta pariatur veniam
+        laudantium consequatur id repellendus odio provident possimus, incidunt
+        rerum! Voluptas sequi atque quidem recusandae cupiditate voluptates
+        obcaecati eligendi cum, ex fugit rerum.
+      </section>
+    </article>
+    <figure>
+      <img
+        src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        alt="Trulli"
+      />
+      <figcaption>Fig1.- Peacock feather</figcaption>
+    </figure>
+
+    <picture>
+      <source srcset=".png" />
+      <source srcset=".jpg" />
+      <img
+        src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        alt="Trulli"
+      />
+    </picture>
+    <pre>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolor,      perferendis ipsum of
+                             ficia natus facilis voluptatibus cupiditate corru
+                             pti, voluptate quam impedit? Soluta eveniet alias ab                   odit? Voluptatibus repellendus tempore quos expedita laudantium unde, odio ad rerum ipsa quaerat doloribus.               Laboriosam nobis amet ea ne
+        cessitatibus voluptatibus c
+        orporis repudiandae a accusamus!
+    </pre>
+
+    <video width="400" controls muted loop autoplay>
+      <source
+        src="./037_NodeJs_My_First_Express_App_Parsing_Form_Data_Storing_The_Contact.mp4"
+      />
+    </video>
+    <video
+      width="300"
+      controls
+      muted
+      loop
+      poster="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300"
+    >
+      <source
+        src="./037_NodeJs_My_First_Express_App_Parsing_Form_Data_Storing_The_Contact.mp4"
+      />
+    </video>
+
+    <audio controls muted autoplay>
+      <source src="./Arjan Vailly - ANIMAL.mp3" />
+    </audio>
+
+    <br />
+    <label for="browser">Choose any Browser : </label>
+    <select name="browser" id="browser">
+      <option>Choose</option>
+      <option value="Brave">Brave</option>
+      <option value="Google">Google</option>
+      <option value="Mozilla">Mozilla</option>
+      <option value="IE">IE</option>
+    </select>
+    <br />
+    <label for="browser">Choose any Browser : </label>
+    <input list="lists" name="browser" id="browser" />
+    <datalist id="lists">
+      <option value="Brave"></option>
+      <option value="Google"></option>
+      <option value="Mozilla"></option>
+      <option value="IE"></option>
+    </datalist>
+
+    <label for="disk_c">Disk usage C:</label>
+<meter id="disk_c" value="8" min="0" max="20">2 out of 10</meter><br>
+
+<label for="disk_d">Disk usage D:</label>
+<meter id="disk_d" value="0.6">100%</meter>
+
+<label for="file">Downloading progress:</label>
+<progress id="file" value="19" max="100"> 32% </progress>
+<dialog open>This is an open dialog window dfghdf</dialog>
+  </body>
+</html>
